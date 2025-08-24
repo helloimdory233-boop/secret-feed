@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Secret Feed — Anonim Dedikodu</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Secret <span>Feed</span></div>
+    <nav>
+      <a href="index.html">Akış</a>
+      <a href="submit.html" class="cta">+ Gönderi</a>
+    </nav>
+  </header>
+  <main id="feed"></main>
+  <template id="post-card">
+    <article class="post">
+      <div class="meta">
+        <span class="badge">Anonim</span>
+        <time></time>
+      </div>
+      <h2 class="title"></h2>
+      <p class="body"></p>
+      <div class="reactions">
+        <button data-r="fire">🔥 <span>0</span></button>
+        <button data-r="susp">🤔 <span>0</span></button>
+        <a class="comments-link" href="#">💬 0 yorum</a>
+      </div>
+    </article>
+  </template>
+  <script src="app.js"></script>
+</body>
+</html>

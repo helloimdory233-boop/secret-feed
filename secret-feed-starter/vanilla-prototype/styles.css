@@ -1,0 +1,18 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',sans-serif;background:#0f0f10;color:#f4f4f4}
+a{color:inherit;text-decoration:none}header.site-header{position:sticky;top:0;background:#0b0b0c;border-bottom:1px solid #1f1f22;display:flex;align-items:center;justify-content:space-between;padding:12px 16px;z-index:10}
+.brand{font-weight:800;letter-spacing:.5px}.brand span{color:#f7c948}
+nav a{margin:0 8px;opacity:.9}.cta{background:#f7c948;color:#111;padding:8px 12px;border-radius:8px;font-weight:700}
+main{max-width:760px;padding:24px 16px;margin:0 auto}
+.post{background:#141416;border:1px solid #232327;border-radius:14px;padding:16px;margin-bottom:16px}
+.post .meta{display:flex;gap:8px;align-items:center;font-size:12px;color:#c9c9ce}
+.badge{background:#1f1f22;border:1px solid #2a2a2e;padding:2px 8px;border-radius:999px}
+.title{margin:8px 0 6px 0}
+.body{color:#e7e7eb;line-height:1.5}
+.reactions{display:flex;gap:8px;margin-top:10px}
+.reactions button{background:#1b1b1e;border:1px solid #29292d;color:#eaeaea;border-radius:10px;padding:6px 10px;cursor:pointer}
+.reactions button:hover{transform:translateY(-1px)}
+.submit form{display:flex;flex-direction:column;gap:10px}
+input,textarea{background:#111113;border:1px solid #2a2a2e;color:#fff;border-radius:10px;padding:10px}
+.hint{font-size:12px;color:#bdbdc6;opacity:.9}
+.comments-link{opacity:.9}
+@media(max-width:520px){.brand{font-size:18px}}

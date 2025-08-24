@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Secret Feed — Gönderi Oluştur</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Secret <span>Feed</span></div>
+    <nav>
+      <a href="index.html">Akış</a>
+      <a href="submit.html" class="cta">+ Gönderi</a>
+    </nav>
+  </header>
+  <main class="submit">
+    <h1>Yeni Gönderi</h1>
+    <form id="post-form">
+      <label>Başlık</label>
+      <input type="text" id="title" placeholder="Skandal başlık..." required />
+      <label>Dedikodu / Hikâye</label>
+      <textarea id="body" rows="6" placeholder="Anlat bakalım..." required></textarea>
+      <button type="submit" class="cta">Yayınla</button>
+      <p class="hint">Anonim takma ad otomatik atanır (Guest-###).</p>
+    </form>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
